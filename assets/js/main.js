@@ -60,7 +60,7 @@ const sr = ScrollReveal({
   distance: '60px',
   delay: 400,
   duration: 2500,
-  reset: true,
+//   reset: true,
 });
 
 sr.reveal(`.home__data, .section-title`);
