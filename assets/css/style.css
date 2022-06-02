@@ -147,6 +147,7 @@ main {
   width: 100%;
   z-index: 100;
   background: transparent;
+  transition: 0.3s;
 }
 
 .nav {
