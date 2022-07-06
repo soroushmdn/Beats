@@ -55,7 +55,7 @@ sr.reveal(`.home__data, .section-title`);
 sr.reveal(`.home__img `, { origin: 'top' });
 
 sr.reveal(
-  `.sponsor__img ,.products__card ,.footer__content,.footer__logo ,.footer__copy`,
+  `.sponser__container div ,.products__card ,.footer__content,.footer__logo ,.footer__copy`,
   {
     origin: 'top',
     interval: 150,
