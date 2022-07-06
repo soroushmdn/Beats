@@ -55,14 +55,14 @@ sr.reveal(`.home__data, .section-title`);
 sr.reveal(`.home__img `, { origin: 'top' });
 
 sr.reveal(
-  `.sponser__container div ,.products__card ,.footer__content,.footer__logo ,.footer__copy`,
+  `.sponser__container div ,.products__card ,.footer__content,.footer__logo`,
   {
     origin: 'top',
     interval: 150,
   }
 );
 
-sr.reveal(`.specs__data , .case__img , .discount__data `, {
+sr.reveal(`.specs__data , .case__img , .discount__data`, {
   origin: 'left',
   interval: 150,
 });
