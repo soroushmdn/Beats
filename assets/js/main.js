@@ -19,18 +19,6 @@ navLinks.forEach((n) => {
   });
 });
 
-// @@@@@@@@@@@@@@@@@@ add active link @@@@@@@@@@@@@@@@@
-navLinks.forEach((n) => {
-  n.addEventListener('click', activeLink);
-});
-
-function activeLink() {
-  navLinks.forEach((n) => {
-    n.classList.remove('active');
-    this.classList.add('active');
-  });
-}
-
 // @@@@@@@@@@@@@@@@@@ CHANGE BACKGROUND HEADER @@@@@@@@@@@@@@@@@
 window.addEventListener('scroll', scrollHeader);
 function scrollHeader() {
@@ -60,7 +48,6 @@ const sr = ScrollReveal({
   distance: '60px',
   delay: 400,
   duration: 2500,
-//   reset: true,
 });
 
 sr.reveal(`.home__data, .section-title`);
