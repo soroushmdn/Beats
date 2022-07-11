@@ -530,3 +530,20 @@ button {
 .show-scroll {
   bottom: 5rem;
 }
+
+/*@@@@@@@@@@@@@@@@@ scroll bar @@@@@@@@@@@@@@@@ */
+
+::-webkit-scrollbar {
+  background-color: hsl(206, 4%, 35%);
+  width: 10px;
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(206, 4%, 25%);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(206, 4%, 20%);
+}
